@@ -1,0 +1,8 @@
+p, admin, domain1, /merchant, GET
+p, admin, domain1, /merchant, POST
+p, admin, domain2, /shop, GET
+p, admin, domain2, /shop, POST
+
+g, alice, admin, domain1
+g, alice, admin, domain2
+g, bob, admin, domain2
